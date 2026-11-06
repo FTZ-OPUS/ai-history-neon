@@ -1,0 +1,111 @@
+{
+  "scenes": [
+    {
+      "scene": "S00_Prologue",
+      "start": 0.0,
+      "duration": 6.4
+    },
+    {
+      "scene": "S01_Turing",
+      "start": 6.4,
+      "duration": 6.1
+    },
+    {
+      "scene": "S02_Dartmouth",
+      "start": 12.5,
+      "duration": 5.52
+    },
+    {
+      "scene": "S03_Perceptron",
+      "start": 18.02,
+      "duration": 8.47
+    },
+    {
+      "scene": "S03b_Activation",
+      "start": 26.48,
+      "duration": 10.8
+    },
+    {
+      "scene": "S04_Winter",
+      "start": 37.28,
+      "duration": 5.55
+    },
+    {
+      "scene": "S05_Backprop",
+      "start": 42.83,
+      "duration": 8.18
+    },
+    {
+      "scene": "S05b_ChainRule",
+      "start": 51.02,
+      "duration": 9.97
+    },
+    {
+      "scene": "S06_DeepBlue",
+      "start": 60.98,
+      "duration": 5.6
+    },
+    {
+      "scene": "S07_ImageNet",
+      "start": 66.58,
+      "duration": 5.97
+    },
+    {
+      "scene": "S08_AlphaGo",
+      "start": 72.55,
+      "duration": 6.1
+    },
+    {
+      "scene": "S09_Transformer",
+      "start": 78.65,
+      "duration": 7.4
+    },
+    {
+      "scene": "S09b_AttentionMap",
+      "start": 86.05,
+      "duration": 9.05
+    },
+    {
+      "scene": "S10_Generative",
+      "start": 95.1,
+      "duration": 5.47
+    },
+    {
+      "scene": "S10b_Leap",
+      "start": 100.57,
+      "duration": 9.5
+    },
+    {
+      "scene": "S11a_Cast",
+      "start": 110.07,
+      "duration": 8.72
+    },
+    {
+      "scene": "S12_Claude",
+      "start": 118.78,
+      "duration": 10.42
+    },
+    {
+      "scene": "S13_Astra",
+      "start": 129.2,
+      "duration": 10.42
+    },
+    {
+      "scene": "S14_DeepSeek",
+      "start": 139.62,
+      "duration": 10.42
+    },
+    {
+      "scene": "S15_Compare",
+      "start": 150.03,
+      "duration": 7.85
+    },
+    {
+      "scene": "S11_Finale",
+      "start": 157.88,
+      "duration": 8.2
+    }
+  ],
+  "duration": 166.08,
+  "output": "AI史诗_2026扩展版_1080p60.mp4"
+}

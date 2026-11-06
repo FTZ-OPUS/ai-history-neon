@@ -1,0 +1,56 @@
+{
+  "turing": {
+    "file": "assets/turing.png",
+    "source_file": "File:Alan Turing (1951).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Elliott & Fry",
+    "changes": "Cropped to circle; contrast and saturation adjusted."
+  },
+  "mccarthy": {
+    "file": "assets/mccarthy.png",
+    "source_file": "File:John McCarthy (computer scientist) Stanford 2006 (272020300).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:John_McCarthy_(computer_scientist)_Stanford_2006_(272020300).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "null0 from Singapore, Singapore",
+    "changes": "Cropped to circle; contrast and saturation adjusted."
+  },
+  "rosenblatt": {
+    "file": "assets/rosenblatt.png",
+    "source_file": "File:Frank Rosenblatt.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Frank_Rosenblatt.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "AnonymousUnknown author",
+    "changes": "Cropped to circle; contrast and saturation adjusted."
+  },
+  "hinton": {
+    "file": "assets/hinton.png",
+    "source_file": "File:Geoffrey E. Hinton, 2024 Nobel Prize Laureate in Physics (cropped1).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(cropped1).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Arthur Petron",
+    "changes": "Cropped to circle; contrast and saturation adjusted."
+  },
+  "deepblue": {
+    "file": "assets/deepblue.png",
+    "source_file": "File:Deep Blue.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "James the photographer",
+    "changes": "Cropped to circle; contrast and saturation adjusted."
+  },
+  "leedol": {
+    "file": "assets/leedol.png",
+    "source_file": "File:Lee Se-Dol - 2016 (cropped).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_(cropped).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "LG Electronics",
+    "changes": "Cropped to circle; contrast and saturation adjusted."
+  }
+}

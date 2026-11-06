@@ -1,0 +1,46 @@
+给接手上传的同学 / AI：
+
+这是一条 Manim 动画短片《AI 史诗 · 霓虹知识短片》的完整源码与素材包，共 25 个文件、约 20 MB。
+目标：推到 GitHub，仓库名建议 `ai-history-neon`，公开仓库即可，不要勾选自动生成 README。
+
+## 里面有什么
+
+```
+ai_history.py            21 幕 Manim 动画（核心，单文件约 520 行）
+render_film.py           逐幕渲染 → 拼接 → 合成音轨 → 混音
+fetch_assets.py          从 Wikimedia 拉历史照片并圆形裁切
+audit_layout.py          干跑版面自检（文字越界 / 重叠）
+timeline_v2.json         21 幕分幕秒表，合计 166.08 秒
+README.md                项目介绍、分幕表、环境与运行方式、视觉系统、踩坑清单
+SOURCES.md               史实链接、公式口径、图片署名与许可说明
+assets/                  6 张 Wikimedia 历史照片 + attribution.json（作者/许可/原图链接）
+assets/characters/       3 张拟人角色透明图 + 原图 raw/ + 去背脚本
+preview/poster.jpg       封面图（README 首图）
+preview/title.jpg        标题帧
+preview/preview-1080p30.mp4            压缩版成片预览（9.3 MB，1080p30，含中文旁白）
+```
+
+## 上传注意事项
+
+1. **预览视频 9.3 MB，可直接进仓库**（GitHub 单文件上限 100 MB，50 MB 以上会告警）。原始成片是 1080p60、80 MB，不在包内，不需要上传。
+2. 包内**不含 `.git`**，请自己 `git init`，默认分支建议 `main`。
+3. 若用命令行：
+
+```bash
+cd ai-history-neon
+git init -b main
+git add -A
+git commit -m "feat: AI 史诗 · 霓虹知识短片（21 幕 / 166s）"
+git remote add origin git@github.com:<账号>/ai-history-neon.git
+git push -u origin main
+```
+
+4. 包内已有 `.gitignore`，会忽略 `media/`、`dub/`、`*.mp4`（但保留 `preview/*.mp4`）、`__pycache__`、`.DS_Store`，不要改动。
+5. 仓库**不要**加开源许可证，作者没表态；也**不要**改 README 里的作者信息。
+6. 包内文件名与目录名已全部改为 ASCII（`ai-history-neon/`、`preview/preview-1080p30.mp4`），只有 README / SOURCES 等文件内容是中文，正常上传即可，不会出现乱码。
+
+## 内容红线（重要，勿改）
+
+- `SOURCES.md` 里记录了图片来源与许可：图灵照片为公有领域，其余为 CC BY / CC BY-SA，**必须保留署名文件**，不能删。
+- 片中 2026 年三家模型（Claude Opus 5.5 / GPT-6 Astra / DeepSeek V4.1 Flash）的能力描述均取自厂商公开介绍，不做排名；DeepSeek 官方名是 **V4.1 Flash**，不是「1017」。
+- 三张角色插画由作者提供，仅做去背裁切，不代表官方形象或官方授权。

@@ -1,0 +1,16 @@
+# 渲染中间产物
+media/
+dub/
+
+# 单场景成片与拼接清单
+media/videos/
+*.mp4
+*.mov
+!preview/*.mp4
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
